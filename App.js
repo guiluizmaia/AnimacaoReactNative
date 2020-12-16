@@ -18,7 +18,6 @@ export default function App(){
         
         <Button title="Teste" onPress={() =>{
           setAnimationState({
-            ...animationState,
             isStopped: false
             
           })
@@ -28,3 +27,4 @@ export default function App(){
     </SafeAreaView>
   );
 }
+//https://developerplus.com.br/o-que-sao-hooks-e-como-usar-no-react-native/
